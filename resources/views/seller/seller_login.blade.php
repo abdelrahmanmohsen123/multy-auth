@@ -55,7 +55,7 @@
                                                   </div>
 
                                                 @endif
-                                                <form action="{{route('admin.login')}}" method="post">
+                                                <form action="{{route('seller.login')}}" method="post">
                                                     @csrf
 
                                                     <div class="mb-3 auth-form-group-custom mb-4">
@@ -86,7 +86,7 @@
                                             </div>
 
                                             <div class="mt-5 text-center">
-                                                <p>Don't have an account ? <a href="{{route('admin.register')}}" class="fw-medium text-primary"> Register </a> </p>
+                                                <p>Don't have an account ? <a href="{{route('seller.register')}}" class="fw-medium text-primary"> Register </a> </p>
                                                 <p>© <script>document.write(new Date().getFullYear())</script> Nazox. Crafted with <i class="mdi mdi-heart text-danger"></i> by Themesdesign</p>
                                             </div>
                                         </div>
